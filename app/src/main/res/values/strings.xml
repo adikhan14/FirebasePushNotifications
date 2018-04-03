@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebasePushNotifications</string>
+    <string name="profile_text">Profile</string>
+    <string name="all_user_text">All Users</string>
+    <string name="notification_text">Notifications</string>
+    <string name="login_welcome_text">Welcome to Notification App</string>
+    <string name="default_notification_channel_id">Adil_CH_01</string>
+</resources>

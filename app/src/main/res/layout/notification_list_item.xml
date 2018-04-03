@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notification_list_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/setup_default_profile_pic" />
+
+    <TextView
+        android:id="@+id/notification_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/notification_list_image"
+        android:text="UserName Loading"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/notification_list_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/notification_list_name"
+        android:layout_below="@+id/notification_list_name"
+        android:layout_marginRight="5dp"
+        android:text="message" />
+
+</RelativeLayout>
